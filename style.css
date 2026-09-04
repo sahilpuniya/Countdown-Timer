@@ -29,7 +29,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 10px;
+    /* gap: 10px */
+    animation: gap 1s linear 0ms forwards normal ;
+    /* animation-fill-mode:forwards; */
+}
+
+@keyframes gap{
+    from{
+        gap: 100px;
+    }
+    to{
+        gap: 10px;
+    }
 }
 
 .container:hover{
