@@ -5,7 +5,7 @@ let timer= setInterval(update,1000)
 
 
 function update(){
-    const end= new Date("2026-09-04T15:13:00").getTime()
+    const end= new Date("2027-01-01T12:00:00").getTime()
     const start= new Date("2026-09-04T14:55:49").getTime()
     const current= new Date().getTime()
     const total= end-start
